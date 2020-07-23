@@ -1,0 +1,40 @@
+Data Science Skills:
+‣ Python
+‣ Data Cleaning
+‣ Statistical Analysis
+‣ Data Visualization
+‣ Database (MongoDB)
+‣ Web Application online at HEROKU
+
+Data Science Tasks:
+‣ Handle imbalanced data
+‣ Natural language processing
+‣ Prediction interpretability
+‣ Web application predicts text
+   class and explains the prediction
+  
+
+
+
+
+
+
+Data Science Skills:
+‣ Python
+‣ Machine Learning
+‣ Data Cleaning
+‣ Statistical Analysis
+‣ Interactive Data Visualization
+‣ Feature Engineering
+‣ Database (MongoDB)
+‣ Version Control
+‣ Web application online at HEROKU
+
+Data Science Tasks:
+‣ Instagram data scraping
+‣ Natural language  
+   processing
+‣ Emerging topics
+‣ Like Prediction - 2 models
+   (NLP and statistical  
+    feature based)
