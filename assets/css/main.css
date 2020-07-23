@@ -1788,8 +1788,8 @@ section, article {
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			border-radius: 0.35em;
-			border: solid 3px rgba(255, 255, 255, 0.5);
-			color: #fff;
+			border: solid 3px rgb(62, 176, 143, 1);
+			color: rgb(62, 176, 143, 1);
 			content: 'View';
 			display: inline-block;
 			font-size: 0.8em;
@@ -2348,6 +2348,8 @@ ul.actions {
 
 		.work-item .image {
 			margin: 0 0 1.5em 0;
+			border-radius: 0.35em;
+			border: solid 1px rgb(62, 176, 143, 0.3);
 		}
 
 		.work-item h3 {
