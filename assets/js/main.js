@@ -5,14 +5,22 @@
 */
 
 function myFunction(buttn) {
-	if(buttn === 1) {
+	if(buttn === 0) {
 		var btnText = document.getElementById("myBtn");
 		var dots = document.getElementById("dots");
 		var moreText = document.getElementById("more");
-	} else {
+	} else if(buttn === 1) {
+		var btnText = document.getElementById("myBtn1");
+		var dots = document.getElementById("dots1");
+		var moreText = document.getElementById("more1");
+	} else if(buttn === 2) {
 		var btnText = document.getElementById("myBtn2");
 		var dots = document.getElementById("dots2");
 		var moreText = document.getElementById("more2");
+	} else {
+		var btnText = document.getElementById("myBtn3");
+		var dots = document.getElementById("dots3");
+		var moreText = document.getElementById("more3");
 	}
 	
 	if (dots.style.display === "none") {

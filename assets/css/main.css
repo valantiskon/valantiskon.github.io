@@ -7,6 +7,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+#more, #more1, #more2, #more3 {
+	display: none;
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -18,6 +24,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
+	color: rgb(255, 255, 255, 0.7);
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -36,9 +43,6 @@ body {
 ol, ul {
 	list-style: none;
 }
-
-#more {display: none;}
-#more2 {display: none;}
 
 blockquote, q {
 	quotes: none;
@@ -115,7 +119,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: rgb(255, 255, 255, 1);
 		line-height: 1.5em;
 	}
 
@@ -1965,12 +1969,13 @@ ul.actions {
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
-	display: flex;
+	display: inline-block;
 	cursor: default;
 	list-style: none;
 	margin-left: -1em;
 	padding-left: 0;
 	text-align: center;
+	margin-top: 100px;
 }
 
 	ul.actions li {
@@ -2227,8 +2232,8 @@ ul.actions {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
+		border: solid 3px rgb(255, 255, 255, 0.6);
+		color: rgb(255, 255, 255, 0.6) !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2409,7 +2414,7 @@ ul.actions {
 		}
 
 			#header .icons a {
-				color: #41484c;
+				color: rgb(255, 255, 255, 0.7);
 				-moz-transition: color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out;
@@ -2417,7 +2422,7 @@ ul.actions {
 			}
 
 				#header .icons a:hover {
-					color: #fff;
+					color: #e27689;
 				}
 
 	#logo {
@@ -2438,8 +2443,8 @@ ul.actions {
 		#logo p {
 			position: relative;
 			display: block;
-			font-size: 0.6em;
-			color: rgba(255, 255, 255, 0.7);
+			font-size: 0.7em;
+			color: rgba(255, 255, 255, 0.8);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 		}
@@ -2502,8 +2507,9 @@ ul.actions {
 
 	#footer {
 		margin-left: 375px;
+		color: rgb(255, 255, 255, 0.8);
 		text-align: center;
-		background-color: #dce3e2;
+		background-color: rgb(33, 42, 41);
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2532,6 +2538,7 @@ ul.actions {
 
 	#main {
 		margin-left: 375px;
+		text-align: center;
 	}
 
 		#main > section {
@@ -2578,15 +2585,15 @@ ul.actions {
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: rgba(25, 40, 40);
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: rgba(30, 42, 41);
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: rgba(30, 43, 43);
 			}
 
 /* Wide */
