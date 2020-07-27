@@ -8,7 +8,7 @@
 */
 
 
-#more, #more1, #more2, #more3 {
+#more, #more1, #more2, #more3, #more4 {
 	display: none;
 }
 
@@ -2239,7 +2239,7 @@ ul.actions {
 		color: rgb(73, 191, 157) !important;
 		cursor: pointer;
 		display: inline-block;
-		padding: 0 1.5em;
+		padding: 0 0em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
