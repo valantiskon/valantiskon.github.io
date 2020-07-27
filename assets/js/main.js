@@ -17,10 +17,14 @@ function myFunction(buttn) {
 		var btnText = document.getElementById("myBtn2");
 		var dots = document.getElementById("dots2");
 		var moreText = document.getElementById("more2");
-	} else {
+	} else  if(buttn === 3) {
 		var btnText = document.getElementById("myBtn3");
 		var dots = document.getElementById("dots3");
 		var moreText = document.getElementById("more3");
+	} else {
+		var btnText = document.getElementById("myBtn4");
+		var dots = document.getElementById("dots4");
+		var moreText = document.getElementById("more4");
 	}
 	
 	if (dots.style.display === "none") {
